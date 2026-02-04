@@ -1,1 +1,5 @@
-# Carbon-Footprint
+Electricity consumption is continuously increasing, leading to higher energy costs and increased carbon emissions that negatively affect the environment. This project, Carbon Footprint Aware Energy Meter, is designed to monitor real-time electrical parameters such as voltage, current, power, energy consumption, power factor, electricity cost, and carbon emission. The system uses an ESP32 microcontroller along with voltage, current, temperature sensors, LCD display, LEDs, relay module, and IoT platform (Blynk) for remote monitoring.
+
+The energy meter calculates power consumption and estimates carbon emissions based on standard emission factors. An overload protection mechanism is implemented using a relay to automatically disconnect the load when power exceeds a safe limit. Visual indications using LEDs and buzzer alerts are provided for different load conditions. The system also monitors temperature to enhance safety and reliability. Electricity cost is calculated based on predefined tariff rates, helping users understand real-time expenditure.
+
+This project promotes energy awareness, safety, and sustainability by encouraging efficient electricity usage and reducing unnecessary power consumption. It is suitable for smart homes, educational demonstrations, and future smart energy management systems.
